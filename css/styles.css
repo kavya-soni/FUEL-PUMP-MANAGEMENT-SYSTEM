@@ -1,0 +1,132 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background-color:lightblue;
+  color: floralwhite; }
+
+  .Leftcont{
+  float: left;
+  padding-top: 15%;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Leftbox{
+  padding: 10%;
+    background-color: lightsalmon;
+    width: 500px;
+    font-size: large;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0,3,3,3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center
+}
+
+.Rightcont{
+  float: left;
+  width: 50%;
+  padding: 10%;
+  height: 100%;
+}
+
+.container{
+  align-self: center;
+}
+.Rightbox{
+
+    padding: 15%;
+    background-color: lightseagreen;
+    width: 200%;
+    height:100%;
+    box-shadow: 0 4px 8px 0 rgba(0,3,3,3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    font-stretch: expanded;
+}
+
+.button{
+  align-self: center;
+    flex-direction: row;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,3,3,3);
+    border:none;
+    background-color:black; ;
+    color:coral;
+    font-size: 20px;
+    font-weight: 450;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color: #512DA8; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+.carousel {
+  background: #512DA8; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
+.modal .modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+  .modal .modal-header button {
+    color: floralwhite; }
+
+.modal .modal-body {
+  background-color: #D1C4E9; }
+
+.modal .modal-footer {
+  background: #9575CD; }
